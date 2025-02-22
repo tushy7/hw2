@@ -2,6 +2,8 @@
 #define USER_H
 #include <iostream>
 #include <string>
+#include <vector>
+#include "product.h"
 
 /**
  * Implements User functionality and information storage
@@ -17,6 +19,7 @@ public:
     std::string getName() const;
     void deductAmount(double amt);
     virtual void dump(std::ostream& os);
+
 
 private:
     std::string name_;

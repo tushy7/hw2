@@ -11,10 +11,7 @@ User::User(std::string name, double balance, int type) :
 
 }
 
-User::~User()
-{
-
-}
+User::~User() {}
 
 
 std::string User::getName() const

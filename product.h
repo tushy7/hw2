@@ -31,6 +31,8 @@ public:
      */
     virtual void dump(std::ostream& os) const;
 
+    virtual std::string getCategory() const = 0;
+
     /**
      * Accessors and mutators
      */
