@@ -74,7 +74,8 @@
         "unistd.h": "c",
         "forward_list": "cpp",
         "*.in": "cpp",
-        "charconv": "cpp"
+        "charconv": "cpp",
+        "ioctl.h": "c"
     },
     "C_Cpp.default.compilerPath": "/usr/bin/g++"
 }
